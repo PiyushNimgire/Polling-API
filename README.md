@@ -1,4 +1,6 @@
-# Polling-API
+# Polling-System-API
+
+This is api project developed using nodejs. In this project we can create and delete, question and options. We can vote for particular options.   
 
 ## Steps to use this project locally
 
