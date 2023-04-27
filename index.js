@@ -19,13 +19,6 @@ app.get('/', (req, res) => {
 app.use('/questions', questions);
 app.use('/options', options);
 
-// app.get('/questions/:id') view specific question with its options DONE
-// app.post('/questions/create')  create a question DONE
-// app.post('/questions/:id/options/create') create options for specific question DONE
-// app.delete('/questions/:id/delete') delete specific question
-// app.delete('/options/:id/delete') delete specific option
-// app.patch('/options/:id/add_vote') increment vote of that option
-
 const port = 8000;
 
 const start = async() => {
